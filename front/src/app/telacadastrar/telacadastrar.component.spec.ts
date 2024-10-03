@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TelaloginComponent } from './telalogin.component';
+import { TelacadastrarComponent } from './telacadastrar.component';
 
-describe('TelaloginComponent', () => {
-  let component: TelaloginComponent;
-  let fixture: ComponentFixture<TelaloginComponent>;
+describe('TelacadastrarComponent', () => {
+  let component: TelacadastrarComponent;
+  let fixture: ComponentFixture<TelacadastrarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TelaloginComponent]
+      imports: [TelacadastrarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TelaloginComponent);
+    fixture = TestBed.createComponent(TelacadastrarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
